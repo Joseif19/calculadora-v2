@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "proyectosreact-2b48e-fbc77",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
